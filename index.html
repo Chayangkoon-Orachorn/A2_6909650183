@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Learning Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,16 +17,26 @@
 
     <main>
 
-        <section id="about">
-            <h2>About Me</h2>
+        <section id="about" class="container my-4">
+    <h2 class="mb-4">About Me</h2>
 
-            <img src="media/mypic.jpg" class="profile">
+    <div class="row align-items-center g-4">
 
-            <p><strong>ชื่อ:</strong>นายชยังกูร อรชร</p>
-            <p><strong>รหัสนักศึกษา:</strong>6909650183</p>
+        <div class="col-12 col-md-4 text-center">
+            <img src="media/mypic.jpg"
+                 class="profile img-fluid"
+                 alt="My profile photo">
+        </div>
+
+        <div class="col-12 col-md-8">
+            <p><strong>ชื่อ:</strong> นายชยังกูร อรชร</p>
+            <p><strong>รหัสนักศึกษา:</strong> 6909650183</p>
+            <p><strong>หลักสูตร:</strong> วิทยาการคอมพิวเตอร์</p>
+
             <p>
-                สวัสดีครับ ผมเป็นนักศึกษาวิชา CS100 สนใจการเขียนโปรแกรม
-                และอยากเรียนรู้การพัฒนาเว็บไซต์ให้สามารถสร้างเว็บที่สวยงามและใช้งานได้จริง
+                สวัสดีครับ ผมเป็นนักศึกษาวิชา CS100
+                สนใจการเขียนโปรแกรมและอยากเรียนรู้
+                การพัฒนาเว็บไซต์ให้สวยงามและใช้งานได้จริง
             </p>
 
             <h3>สิ่งที่สนใจ</h3>
@@ -33,7 +44,10 @@
                 <li>Web Development</li>
                 <li>Programming</li>
             </ul>
-        </section>
+        </div>
+
+    </div>
+</section>
 
         <section id="built">
             <h2>What I Built</h2>

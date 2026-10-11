@@ -97,3 +97,19 @@ footer{
     color:white;
     padding:15px;
 }
+/* Make all sections consistent */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 25px;
+}
+
+#about.container {
+    max-width: 100%;
+}
